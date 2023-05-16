@@ -1,0 +1,50 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-gptblock-gpt-block svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.editor-styles-wrapper .gpt-block-wrap {
+  padding: 30px;
+  margin: 40px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+.editor-styles-wrapper .gpt-block-wrap .loading-header {
+  display: block;
+  text-align: center;
+}
+.editor-styles-wrapper .gpt-block-wrap svg {
+  display: block;
+  margin: 0 auto;
+}
+.editor-styles-wrapper .gpt-block-wrap h3 {
+  font-size: 16px;
+  border: 1px bottom dashed #ccc;
+}
+.editor-styles-wrapper .gpt-block-wrap h6 {
+  color: #333;
+  margin: 0 !important;
+}
+.editor-styles-wrapper .gpt-block-wrap small {
+  display: block;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.editor-styles-wrapper .gpt-block-wrap .gpt-response-copy {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=index.css.map*/

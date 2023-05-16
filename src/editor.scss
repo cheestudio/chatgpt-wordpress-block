@@ -1,0 +1,50 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ .wp-block-gptblock-gpt-block {
+	svg {
+		display: block;
+		margin: 0 auto;
+	}
+ }
+
+ .editor-styles-wrapper {
+	 .gpt-block-wrap {
+		 padding: 30px;
+		 margin: 40px;
+		 background-color: #eee;
+		 border:1px solid #ccc;
+		 .loading-header {
+			 display: block;
+			 text-align: center;
+		 }
+		 svg {
+			 display: block;
+			 margin: 0 auto;
+		 }
+		 h3 {
+			 font-size: 16px;
+			 border:1px bottom dashed #ccc;
+		 }
+		 h6 {
+			 color: #333;
+			 margin:0 !important;
+		 }
+		 small {
+			 display: block;
+			 color: #aaa;
+			 text-transform: uppercase;
+			 letter-spacing: 2px;
+			 margin-bottom: 10px;
+		 }
+		 .gpt-response-copy {
+			 font-size: 14px;
+			 line-height: 1.6;
+			 color: #555;
+			 font-style: italic;
+		 }
+	 }
+ }

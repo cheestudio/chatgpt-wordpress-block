@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gptblock/gpt-block",
+  "version": "0.1.0",
+  "title": "GPT Block",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Custom Block with ChatGPT Integration",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "gpt-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
